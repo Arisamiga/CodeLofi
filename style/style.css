@@ -1,0 +1,91 @@
+.header {
+    background: url("../images/background.JPG");
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding-bottom: 10%;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+.headertext {
+    color: black;
+    font-size: 300%;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 7%;
+    padding-left: 11%;
+}
+.titletext {
+    margin-top: 1%;
+    color: white;
+    font-size: 199%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding-left: 15%;
+}
+a {
+    color: white;
+}
+.Musictext {
+    margin-top: 1%;
+    color: white;
+    font-size: 150%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding-left: 10%;
+}
+.copyright {
+    float: right;
+    color: white; 
+    margin-top: 69mm;
+    font-family: Verdana,sans-serif;
+    line-height: 1.5;
+}
+.copyrightsign {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.version {
+    float: right; 
+    color: white; 
+    margin-top: 69mm;
+    margin-right: 3mm;
+}
+.borderbox {
+    text-align: center
+}
+.centeritems {
+    text-align: -webkit-center;
+}
+@media screen and (max-width: 959px){
+    .image {
+    margin-top: -16%;
+    margin-left: 17%;
+    }
+    .copyrighttext {
+    font-size: x-large;
+    text-align: left;
+    }
+}
+@media screen and (max-width: 640px){
+    .image {
+        margin-top: -16%;
+        margin-left: 7%;
+    }
+    .copyrighttext {
+        font-size: larger;
+    }
+    .headertext {
+        font-size: 231%;
+    }
+}
+@media screen and (max-width: 320px){
+    .borderbox{
+        display: none;
+    }
+    body {
+        background:url("../images/Sizeunvalidmessage.png")
+    }
+}
