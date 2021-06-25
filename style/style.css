@@ -27,12 +27,11 @@ a {
     color: white;
 }
 .Musictext {
-    margin-top: 1%;
+    margin-top: 7%;
     color: white;
     font-size: 150%;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    float: left;
     padding-left: 10%;
 }
 .copyright {
@@ -54,31 +53,31 @@ a {
     margin-right: 3mm;
 }
 .borderbox {
-    text-align: center
+    text-align: center;
+    margin: auto;
+    width: 1887px;
 }
 .centeritems {
     text-align: -webkit-center;
 }
+.bottomtext {
+    margin-bottom: 2%;
+}
 @media screen and (max-width: 959px){
-    .image {
-    margin-top: -16%;
-    margin-left: 17%;
-    }
     .copyrighttext {
     font-size: x-large;
     text-align: left;
     }
 }
 @media screen and (max-width: 640px){
-    .image {
-        margin-top: -16%;
-        margin-left: 7%;
-    }
     .copyrighttext {
         font-size: larger;
     }
     .headertext {
         font-size: 231%;
+    }
+    .header {
+        width: 190%;
     }
 }
 @media screen and (max-width: 320px){
