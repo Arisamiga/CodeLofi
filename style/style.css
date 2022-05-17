@@ -22,6 +22,13 @@
     font-family: 'Montserrat', sans-serif;
     float: left;
     padding-left: 15%;
+    margin-bottom: 2%;
+}
+.twitchframe {
+    padding-top: 3%;
+    float: right;
+    margin-right: 13%;
+    margin-bottom: 5%;
 }
 a {
     color: white;
@@ -55,7 +62,8 @@ a {
 .borderbox {
     text-align: center;
     margin: auto;
-    width: 1887px;
+    width: 100%;
+    max-width: 1887px;
 }
 .centeritems {
     text-align: -webkit-center;
@@ -63,10 +71,20 @@ a {
 .bottomtext {
     margin-bottom: 2%;
 }
+@media screen and (max-width: 1100px) {
+    .titletext {
+        margin-right: 15%;
+    }
+}
 @media screen and (max-width: 959px){
     .copyrighttext {
-    font-size: x-large;
-    text-align: left;
+        font-size: x-large;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 810px) {
+    .twitchframe  {
+        width: 73%;
     }
 }
 @media screen and (max-width: 640px){
@@ -75,9 +93,6 @@ a {
     }
     .headertext {
         font-size: 231%;
-    }
-    .header {
-        width: 190%;
     }
 }
 @media screen and (max-width: 320px){
