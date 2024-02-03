@@ -71,6 +71,31 @@ a {
 .bottomtext {
     margin-bottom: 2%;
 }
+
+.alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
 @media screen and (max-width: 1100px) {
     .titletext {
         margin-right: 15%;
